@@ -1,0 +1,104 @@
+body{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: sans-serif;
+}
+.top{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    gap: 50px;
+    background-color: rgb(71, 76, 76);
+    cursor: pointer;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    min-width: 100vh;
+    background-color: rgb(237, 243, 243);
+    align-items: center;
+    
+}
+h4{
+    margin-top: -10px;
+}
+h2{
+    color: white;
+}
+.pr1{
+    background-color: whitesmoke;
+    width: 200px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Projects{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 30px;
+}
+.pr1:hover{
+    padding: 30px;
+    cursor: pointer;
+}
+h2:hover{
+    cursor: pointer;
+    padding: 10px;
+    background-color: dimgrey;
+    border-radius: 10px;
+}
+.aboutme{
+    background-color: rgb(237, 243, 243);
+    padding: 30px;
+}
+li{
+    background-color: rgb(0, 72, 255);
+    border-radius: 5px;
+    height: 30px;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+}
+h1, h6{
+    margin-left: 45px;
+}
+h6{
+    font-size: 15px;
+}
+li:hover{
+    padding: 15px;
+    cursor: pointer;
+}
+.contact{
+    margin-left: 500px;
+    margin-top: 100px;
+    justify-content: center;
+    background-color: darkgray;
+    display: grid;
+    grid-template-columns: auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+.inputt{
+    border-radius: 5px;
+    width: 400px;
+}
+.inputtt{
+    border-radius: 5px;
+    width: 400px;
+    height: 100px;
+}
+button{
+    border-radius: 10px;
+    background-color: chartreuse;
+}
+button:hover{
+    padding: 10px;
+    cursor: pointer;
+}
